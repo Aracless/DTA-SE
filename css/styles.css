@@ -292,3 +292,90 @@ body {
 .card .btn i {
     font-size: 1.1rem;
 }
+
+
+
+/*----------------------      To receive*  -------------------*/
+
+.container-to-receive {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+#active {
+  color: #353333;
+}
+.breadcrumbs span {
+  margin: 0 10px;
+  color: #ccc;
+}
+
+.documents-section h1 {
+  margin-bottom: 20px;
+}
+
+.add-document {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.primary-filter {
+  flex-basis: 30%;
+}
+
+.primary-filter label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.primary-filter select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.document-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.document-table th,
+.document-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.document-table th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.document-table button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}

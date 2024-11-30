@@ -176,6 +176,45 @@ body {
     color: #fff; /* Icon color matches text for active */
   }
   
+  
+  .menu-item-inside {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-item-inside a {
+    text-decoration: none;
+    color: #333; /* Default text color */
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .menu-item-inside a i {
+    margin-right: 15px;
+    font-size: 18px; /* Icon size */
+  }
+  
+  /* Hover Effect */
+  .menu-item-inside a:hover {
+    background-color: #e9ecef; /* Light gray hover background */
+    color: #000; /* Text color on hover */
+  }
+  
+  /* Active Menu Item */
+  .menu-item-inside.active a {
+    background-color: #6d3434; /* Dark gray for active */
+    color: #fff; /* White text for active item */
+  }
+  
+  .menu-item-inside.active a i {
+    color: #fff; /* Icon color matches text for active */
+  }
+  
+
+
+
 
 
 
@@ -208,6 +247,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 110px;
+    width: 500px;
 }
 
 

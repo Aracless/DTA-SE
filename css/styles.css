@@ -160,6 +160,7 @@ body {
     color: #000; /* Text color on hover */
   }
   
+
   /* Active Menu Item */
   .menu-item.active a {
     background-color: #344f6d; /* Dark gray for active */
@@ -169,8 +170,17 @@ body {
   .menu-item.active a i {
     color: #fff; /* Icon color matches text for active */
   }
+  .menu-item-inside.active a {
+    background-color: #344f6d; /* Dark gray for active */
+    color: #fff; /* White text for active item */
+  }
   
+  .menu-item-inside.active a i {
+    color: #fff; /* Icon color matches text for active */
+  }
   
+
+
   .menu-item-inside a {
     text-decoration: none;
     color: #333; /* Default text color */
@@ -192,16 +202,7 @@ body {
     color: #000; /* Text color on hover */
   }
   
-  /* Active Menu Item */
-  .menu-item-inside.active a {
-    background-color: #6d3434; /* Dark gray for active */
-    color: #fff; /* White text for active item */
-  }
-  
-  .menu-item-inside.active a i {
-    color: #fff; /* Icon color matches text for active */
-  }
-  
+
 
 
 

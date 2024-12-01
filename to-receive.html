@@ -16,7 +16,7 @@
         Document Tracking and Archiving System
       </div>
       <nav class="nav">
-        <div class="dropdown">
+        <div class="dropdown-nav">
           <button class="dropdown-btn">User Guide ▼</button>
           <div class="dropdown-menu">
             <a href="#">Getting Started</a>
@@ -112,33 +112,29 @@
               <a href="#" id="active">Documents</a>
             </div>
 
-            <div class="documents-section">
-              <h1>Documents 1</h1>
-              <div class="add-document">
-                <button>+ Add a Document</button>
-              </div>
-
-              <div class="filters">
-                <div class="primary-filter">
-                  <label for="to-receive">Filter</label>
-                  <select id="to-receive">
-                    <option>To receive</option>
-                    <option>Option 2</option>
-                    <option>Option 3</option>
+            <div class="container-table">
+                <div class="filter-section">
+                  <label for="filter">Filter</label>
+                  <select id="filter" class="dropdown">
+                    <option value="to-receive">To Receive</option>
+                    <option value="received">Received</option>
+                    <option value="pending">Pending</option>
                   </select>
                 </div>
-
-                <div class="search-query">
-                  <input type="text" placeholder="Enter search query" />
-                  <button>Search Documents</button>
-                </div>
-                <div class="category">
-                  <label for="title">Title</label>
-                  <select id="title">
-                    <option>Option 1</option>
-                    <option>Option 2</option>
-                    <option>Option 3</option>
+                <div class="category-section">
+                  <label for="category">Category</label>
+                  <select id="category" class="dropdown">
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                    <option value="date">Date</option>
                   </select>
+                </div>
+                <button class="add-button">+ Add Documents</button>
+                <div class="search-section">
+                  <input type="text" id="search" placeholder="Search documents">
+                  <button class="search-button">
+                    🔍
+                  </button>
                 </div>
               </div>
               <table class="document-table">

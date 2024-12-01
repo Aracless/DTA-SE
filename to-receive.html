@@ -34,63 +34,63 @@
   <div class="sidebar">
     <ul class="sidebar-menu">
       <li class="menu-item">
-        <a href="#">
+        <a href="user-home.html">
           <i class="fas fa-home"></i>
           <span>Home</span>
         </a>
       </li>
 
       <li class="menu-item-inside active" style="padding-top: 8px">
-        <a href="#">
+        <a href="to-receive.html">
           <i class="fas fa-bell"></i>
           <span>To Receive</span>
         </a>
       </li>
       <li class="menu-item-inside">
-        <a href="#">
+        <a href="for-release.html">
           <i class="fas fa-pause"></i>
           <span>Pending for Release</span>
         </a>
       </li>
       <li class="menu-item-inside">
-        <a href="#">
+        <a href="received_released.html">
           <i class="fas fa-exchange-alt"></i>
           <span>Received / Released</span>
         </a>
       </li>
       <li class="menu-item-inside">
-        <a href="#">
+        <a href="tagged_terminal.html">
           <i class="fas fa-tag"></i>
           <span>Tagged as Terminal</span>
         </a>
       </li>
       <li class="menu-item-inside">
-        <a href="#">
+        <a href="tracking_no.html">
           <i class="fas fa-barcode"></i>
           <span>My Tracking Numbers</span>
         </a>
       </li>
 
       <li class="menu-item" style="padding-top: 8px;">
-        <a href="#">
+        <a href="office-docs.html">
           <i class="fas fa-briefcase"></i>
           <span>Office Documents</span>
         </a>
       </li>
       <li class="menu-item">
-        <a href="#">
+        <a href="my_docs.html">
           <i class="fas fa-folder-open"></i>
           <span>My Documents</span>
         </a>
       </li>
       <li class="menu-item">
-        <a href="#">
+        <a href="my_reports.html">
           <i class="fas fa-chart-bar"></i>
           <span>My Report</span>
         </a>
       </li>
       <li class="menu-item">
-        <a href="#">
+        <a href="my_settings.html">
           <i class="fas fa-cogs"></i>
           <span>My Settings</span>
         </a>
@@ -112,29 +112,30 @@
               <a href="#" id="active">Documents</a>
             </div>
 
+            <div class="add-docs">
+            <button class="add-button">+ Add Documents</button>
+          </div>
             <div class="container-table">
                 <div class="filter-section">
                   <label for="filter">Filter</label>
                   <select id="filter" class="dropdown">
                     <option value="to-receive">To Receive</option>
-                    <option value="received">Received</option>
-                    <option value="pending">Pending</option>
+                    <option value="received">To Release</option>
+                    <option value="pending">Terminal</option>
                   </select>
                 </div>
                 <div class="category-section">
                   <label for="category">Category</label>
                   <select id="category" class="dropdown">
                     <option value="title">Title</option>
-                    <option value="author">Author</option>
+                    <option value="author">Office</option>
                     <option value="date">Date</option>
+                    <option value="date">Remarks</option>
                   </select>
                 </div>
-                <button class="add-button">+ Add Documents</button>
                 <div class="search-section">
                   <input type="text" id="search" placeholder="Search documents">
-                  <button class="search-button">
-                    🔍
-                  </button>
+                  <button class="search-button">Search</button>
                 </div>
               </div>
               <table class="document-table">
@@ -151,10 +152,10 @@
                 <tbody>
                   <tr>
                     <td>2019-1021-1234-7471</td>
-                    <td>TEST01</td>
-                    <td>DRS Sample Document</td>
+                    <td>COE</td>
+                    <td>Sample Document</td>
                     <td>noted</td>
-                    <td>DRS Sample Document</td>
+                    <td>Sample Document</td>
                     <td><button>RECEIVE</button></td>
                   </tr>
                 </tbody>
